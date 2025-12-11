@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<style>
+
+.grid3{
+    width:800px;
+    height:400px;
+    display:grid;
+    border:2px solid black;
+    margin:100px auto;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px;
+ 
+}
+.g1{
+    background-color: aqua;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.g2{
+    background-color: blue;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.g3{
+    background-color: aquamarine;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.g4{
+    background-color: aqua;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.g5{
+    background-color: blue;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    
+}
+.g6{
+    background-color: aquamarine;
+    /*grid-column-start: 3;
+    grid-column-end: 5;*/
+    grid-column: 3/5;
+   /* grid-row-start: 2;
+    grid-row-end: 3;*/
+    grid-row:2/3
+}
+.grid4{
+    width:800px;
+    height:400px;
+    display:grid;
+    border:2px solid black;
+    margin:100px auto;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px;
+ 
+}
+
+</style>
+    </head>
+    <body>
+        
+        
+<div class="grid3">
+            <div class="g1">box1</div>
+            <div class="g2">box2</div>
+            <div class="g3">box3</div>
+            
+    
+        </div>
+        <div class="grid4">
+            <div class="g4">box1</div>
+            <div class="g5">box2</div>
+            <div class="g6">box3</div>
+            
+    
+        </div>
+
+        <p> to satrt with  div to satrt we can giv egrid-column-start  , no of grid columns: no of columns=+1
+            no of rowslines:no ofrows+1, we can give 
+        </p>
+    </body>
+</html>

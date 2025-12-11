@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .container{
+                border: 12px solid black;
+                height: 150px;
+                width: 50%;
+                box-shadow: 12px;
+
+            }
+body{
+    height:100vh;
+}
+p,h1{margin: 0;}
+        </style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    </head>
+    <body>
+        <p>forms  input type value placeholder value name</p>
+        <p>input type password ,button email, tel ,color , date ,time, range,radio ,chcekbox </p>
+        <p>select,datalist</p>
+        <div class="container">
+            <h1>input type </h1>
+            <form>
+                <input type="username" value="bindu" required minlength="2" maxlength="12"/>
+            </form>
+
+        </div>
+ <div class="container">
+            <h1>input type  password</h1>
+            <form>
+                <input type="password">
+            </form>
+
+        </div>
+         </div>
+ <div class="container">
+            <h1>input type  button</h1>
+            <form>
+                <input type="button" value="signin"/>
+                <i class="bi bi-telephone-minus"></i>
+            </form>
+
+        </div>
+         </div>
+ <div class="container">
+            <h1>input type  email</h1>
+            <form>
+                <input type="email"/>
+                 <input type="button" value="signin"/>
+            </form>
+
+        </div>
+         </div>
+ <div class="container">
+            <h1>input type  number</h1>
+            <form>
+                <input type="number"/>
+            </form>
+
+        </div>
+         </div>
+ <div class="container">
+            <h1>input type  date</h1>
+            <form>
+                <input type="date"/>
+            </form>
+
+        </div>
+         </div>
+ <div class="container">
+            <h1>input type  time</h1>
+            <form>
+                <input type="time"/>
+            </form>
+
+        </div>
+        </div>
+ <div class="container">
+            <h1>input type  time</h1>
+            <form>
+                <input type="time"/>
+            </form>
+
+        </div>
+         </div>
+ <div class="container">
+            <h1>input type radio</h1>
+            <form>
+                <input type="radio" name="gender"/>male
+                <input type="radio" name="gender"/>female
+                <input type="radio" name="gender" disabled/>others
+               
+            </form>
+
+        </div>
+        <div class="container">
+            <h1>input type checkbox</h1>
+            <form>
+                <input type="checkbox" name="lan"/>HTML
+                <input type="checkbox" name="lan1"/>class
+                <input type="checkbox" name="lan2"/>SCRIPT
+               
+            </form>
+
+        </div>
+         
+        <div class="container">
+            <h1>input type select</h1>
+            <form>
+                <select>
+                    <option>select city</option>
+                    <option>Bangalore</option>
+                    <option>pune</option>
+                    <option>hyderabad</option>
+
+                </select> 
+               
+            </form>
+
+        </div>
+        <div>
+            <input type="color"/>
+        </div>
+        <div class="container">
+            <h1>input type datalist tpo get values when we giive it comes </h1>
+            <form>
+                <input list="lan"/>
+                <datalist id="lan">
+                    <option value="Sagar"></option>
+                    <option value="Sai"></option>
+                    <option value=""sachin></option>
+                    <option value="Sitara"></option>
+                    <option value="Sudhee"></option>
+                    <option value="Subhashini"></option>
+
+                </datalist>
+               
+            </form>
+
+        </div>
+         <div class="container">
+            <h1>input type datalist tpo get values when we giive it comes </h1>
+            <form>
+                
+                <select>
+                    <optgroup label="javaprogramming">
+                    <option>sbms</option>
+                    <option>advjava</option>
+                    <option>advjava</option>
+                    </optgroup>
+                    <optgroup label="javaprogramming">
+                    <option>sbms</option>
+                    <option>advjava</option>
+                    <option>advjava</option>
+                    </optgroup>
+                    
+
+                </select>
+               
+            </form>
+
+        </div>
+        <div style="text-align: center;">
+            <textarea rows="2" columns="12"></textarea>
+        </div>
+        <div class="container">
+            <input type="text" maxlength="4" required value="1245" readonly/>
+            <input type="button" value="submit"/>
+        </div>
+    </body>
+</html>
